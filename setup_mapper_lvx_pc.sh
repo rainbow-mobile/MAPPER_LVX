@@ -14,7 +14,7 @@ sudo apt install -y \
     openssh-server \
     htop \
     gedit \
-    netools \
+    net-ools \
     antimicro
 
 # 3. XCB & Qt 개발 라이브러리 설치
