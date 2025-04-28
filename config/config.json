@@ -1,0 +1,32 @@
+{
+	"cam": {
+		"CAM_RGB_TF": "0.029711,0,-0.068203,-90,0,-90",
+		"CAM_IMU_TF": "0.029711,0,-0.068203,0,90,180"
+	},
+	"lidar": {
+		"LIDAR_IP": "192.168.1.3",
+		"LIDAR_MIN_RANGE": "1.0",
+		"LIDAR_MAX_RANGE": "40.0",
+		"LIDAR_FRM_DT": "0.1",
+		"LIDAR_PTS_TF": "0,0,0,30,0,90",
+		"LIDAR_IMU_TF": "0,0,0,30,0,90"
+	},
+	"slam": {
+    		"SLAM_VOXEL_SIZE": "0.1",
+    		"SLAM_MAX_FEATURE_NUM": "800",
+    		"SLAM_COST_THRESHOLD": "1.0",
+    		"SLAM_ERROR_THRESHOLD": "0.1",
+    		"SLAM_SURFEL_RANGE": "1.5",
+    		"SLAM_SURFEL_FLATNESS": "0.1",
+    		"SLAM_KFRM_WINDOW_SIZE": "100",
+  		"SLAM_LC_MAX_FEATURE_NUM": "2000",
+  		"SLAM_LC_COST_THRESHOLD": "1.0"
+	},
+	"loc": {
+    		"LOC_MAX_FEATURE_NUM": "500",
+    		"LOC_COST_THRESHOLD": "1.0",
+  		"LOC_ERROR_THRESHOLD": "0.2",
+    		"LOC_SURFEL_RANGE": "1.0",
+    		"LOC_SURFEL_FLATNESS": "0.3"
+	}
+}
